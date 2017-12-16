@@ -1,0 +1,142 @@
+
+@import "app//sass/normalize";
+@import "app//sass/grid";
+
+
+.body{
+	font-family: 'Cabin';
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+}
+
+/* footer 1 */
+
+.nav__link {
+	color: black;
+}
+
+.row{
+	padding-left: 120px;
+	padding-right: 60px;
+	background-color: #f2f5f8;
+	margin-bottom: 25px;
+	}
+
+.footer1__logo{
+	float: left;
+	margin-right: 50px;	
+}
+
+.footer__nav{
+	width: 100%;
+	margin-top: 25px;	
+}
+
+.nav__link{
+	margin-right: 40px;
+	float: left;
+}
+
+.address{
+	padding-left: 10px;
+}
+
+.adress__text{
+	margin-top: 5px;
+	color: #b4bbc2;
+}
+
+/* The end footer 1 */
+/* footer 2 */
+
+.footer2__text-container{
+	margin-top: 15px;
+	max-width: 406px;
+	line-height: 24px;
+	margin-bottom: 35px;
+}
+
+.cocial{
+	color: white;
+	font-size: 14px !important;
+	border-radius: 4px;
+	padding-left: 12px;
+	padding-top: 6px;
+	padding: 7px 9px;
+	margin-right: 6px;
+	margin-bottom: 40px;
+
+}
+
+.cocial_facebook{
+	background-color: #3162a2;
+
+	&:after{
+		content: "136";
+		font-family: 'Cabin';
+	}
+}
+
+.cocial_twitter{
+	background-color: #2eb1eb;
+	
+	&:after{
+		content: "68";
+		font-family: 'Cabin';
+	}
+}
+
+.cocial_dribbble{
+	background-color: #f552b6;
+	
+	&:after{
+		content: "16";
+		font-family: 'Cabin';
+	}
+}
+.cocial_linkedin{
+	background-color: #457ac0;
+	&:after{
+		content: "13";
+		font-family: 'Cabin';
+	}
+}
+
+.nav__link--blu{
+	margin-right: 30px;
+	color: #65abd0;
+	margin-bottom: 15px;
+}
+
+.list{
+	float: left;
+	line-height: 32px;
+	padding: 0px 0px 0px 65px;
+}
+
+.list__title{
+	color: black;
+}
+
+.list__item{
+	color: $gray;
+}
+
+/* The end footer 2 */
+/* footer 3 */
+
+
+
+
+
+
