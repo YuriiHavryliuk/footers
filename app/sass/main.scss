@@ -7,12 +7,20 @@
 	font-family: 'Cabin';
 	font-size: 16px;
 	font-weight: 600;
+}
 
+.button{
+	border: none;
+	border-radius: 6px;
+	background-color: #24aa98;
+	color: white;
+	padding: 14px 40px;
 }
 
 a {
 	text-decoration: none;
 	cursor: pointer;
+	color: unset;
 }
 
 li{
@@ -47,13 +55,12 @@ li{
 	float: left;
 }
 
-.address{
-	padding-left: 10px;
-}
 
-.adress__text{
-	margin-top: 5px;
+.adress__text, .adress__tel, .adress__post{
 	color: #b4bbc2;
+}
+.adress__text--first{
+	margin-top: 5px;
 }
 
 /* The end footer 1 */
@@ -118,10 +125,13 @@ li{
 	margin-bottom: 15px;
 }
 
+.padding-lists{
+	padding-left: 65px;	
+}
+
 .list{
 	float: left;
-	line-height: 32px;
-	padding: 0px 0px 0px 65px;
+	
 }
 
 .list__title{
@@ -130,10 +140,40 @@ li{
 
 .list__item{
 	color: $gray;
+	margin-top: 15px;
 }
 
 /* The end footer 2 */
 /* footer 3 */
+.list__title--blu{
+	color: #65abd0;
+}
+.footer3__logo{
+	margin-bottom: 10px;
+}
+.column-footer3{
+	padding-bottom: 40px;
+}
+/* The end footer 3 */
+/* footer 4 */
+
+.column-footer4{
+	padding-bottom: 75px;
+}
+
+.footer4__logo{
+	margin-top: -20px;
+}
+
+.list__item--large{
+	max-width: 270px;
+}
+
+.list__item--blue_center{
+	color: #65abd0;
+	text-align: center;
+}
+
 
 
 
