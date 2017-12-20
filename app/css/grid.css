@@ -40,7 +40,7 @@ img {
 
 @media only screen and (min-width: 30em) {
   .wrapper {
-    max-width: 1180px;
+    max-width: 100%;
   }
   .column-1 {
     width: 8.33333%;
